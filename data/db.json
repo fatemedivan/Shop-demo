@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "name": "product 1",
+      "price": "65",
+      "inStock": true,
+      "image": "/img/img1.jpg",
+      "rating": "5",
+      "id": "1"
+    },
+    {
+      "name": "product2",
+      "price": "20",
+      "inStock": false,
+      "image": "/img/img1.jpg",
+      "rating": "3",
+      "id": "2"
+    },
+    {
+      "name": "product 3",
+      "price": 34,
+      "inStock": "ye",
+      "image": "/img/img3.jpg",
+      "rating": 4,
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "image": "/img/img4.jpg",
+      "name": "product 4",
+      "rating": 5,
+      "price": 52,
+      "inStock": true
+    },
+    {
+      "name": "shoes 1",
+      "price": 40,
+      "inStock": "",
+      "image": "/img/shoe1.png",
+      "rating": "4",
+      "id": "5"
+    },
+    {
+      "name": "shoes 2",
+      "price": 70,
+      "inStock": true,
+      "image": "/img/shoe2.png",
+      "rating": 3,
+      "id": "6"
+    },
+    {
+      "name": "shoes 3",
+      "price": 60,
+      "inStock": true,
+      "image": "/img/shoe3.png",
+      "rating": 3,
+      "id": "7"
+    }
+  ]
+}
