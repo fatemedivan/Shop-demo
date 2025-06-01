@@ -14,14 +14,14 @@ export default function Sidebar() {
         <nav className="bg-gray-primary text-white">
           <ul className="flex items-center gap-4 p-5">
             <Link href={"/admin"}>
-              <li className={`${pathname === "/admin" && "text-red-600"}`}>
+              <li className={`${pathname === "/admin" && "text-blue-600"}`}>
                 products
               </li>
             </Link>
             <Link href={'/admin/add-product'}>
               <li
                 className={`${
-                  pathname.includes("add-product") && "text-red-600"
+                  pathname.includes("add-product") && "text-blue-600"
                 }`}
               >
                 add products

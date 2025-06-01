@@ -27,7 +27,7 @@ export default function ProductsTable() {
         name: mainProductInfo.name,
         price: mainProductInfo.price,
         image: mainProductInfo.image,
-        stock: mainProductInfo.inStock ? "true" : "false",
+        stock: mainProductInfo.inStock,
         rating: mainProductInfo.rating,
       });
     }

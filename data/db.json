@@ -19,23 +19,23 @@
     {
       "name": "product 3",
       "price": 34,
-      "inStock": "ye",
+      "inStock": false,
       "image": "/img/img3.jpg",
       "rating": 4,
       "id": "3"
     },
     {
-      "id": "4",
-      "image": "/img/img4.jpg",
       "name": "product 4",
-      "rating": 5,
       "price": 52,
-      "inStock": true
+      "inStock": false,
+      "image": "/img/img4.jpg",
+      "rating": 5,
+      "id": "4"
     },
     {
       "name": "shoes 1",
       "price": 40,
-      "inStock": "",
+      "inStock": true,
       "image": "/img/shoe1.png",
       "rating": "4",
       "id": "5"

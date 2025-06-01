@@ -44,11 +44,11 @@ export default function Navbar() {
               {isOpenMenu && <IoMdClose />}
             </div>
             <Link href={"/"}>
-              <li className={`${pathname === "/" && "text-red-600"}`}>Home</li>
+              <li className={`${pathname === "/" && "text-blue-600"}`}>Home</li>
             </Link>
             <Link href={"/contact"}>
               <li
-                className={`${pathname.includes("contact") && "text-red-600"}`}
+                className={`${pathname.includes("contact") && "text-blue-600"}`}
               >
                 contact
               </li>
@@ -68,10 +68,10 @@ export default function Navbar() {
           }
         >
           <Link href={"/"}>
-            <li className={`${pathname === "/" && "text-red-600"}`}>Home</li>
+            <li className={`${pathname === "/" && "text-blue-600"}`}>Home</li>
           </Link>
           <Link href={"/contact"}>
-            <li className={`${pathname.includes("contact") && "text-red-600"}`}>
+            <li className={`${pathname.includes("contact") && "text-blue-600"}`}>
               contact
             </li>
           </Link>

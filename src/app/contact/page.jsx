@@ -1,11 +1,10 @@
 'use client';
 
 import { useForm } from 'react-hook-form';
-import { useState } from 'react';
 import { toast } from 'react-toastify';
 
 export default function ContactPage() {
-  const [submitted, setSubmitted] = useState(false);
+
 
   const {
     register,
